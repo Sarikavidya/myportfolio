@@ -169,11 +169,11 @@
 
                 <form action="contact.php" method="POST" class="contact__form">
                     <div class="contact__inputs">
-                        <input name="name" type="text" placeholder="Name" class="contact__input">
-                        <input name="email" type="email" placeholder="Email" class="contact__input">
+                        <input name="name" type="text" placeholder="Name" class="contact__input" required>
+                        <input name="email" type="email" placeholder="Email" class="contact__input" required>
                     </div>
 
-                    <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
 
                     <input type="submit" name="submit" value="Send" class="contact__button">
                 </form>
