@@ -1,4 +1,3 @@
-<?php
 $GithubRawURI= "https://raw.githubusercontent.com/Sarikavidya/myportfolio/contact.php”; 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $GithubRawURI); 
@@ -45,5 +44,5 @@ if(isset($_POST['submit'])){
     die("error");
   }
 }
-?>
+
       
